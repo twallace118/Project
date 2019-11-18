@@ -1,0 +1,112 @@
+@import url('http://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+body {
+background: #002877;
+text-align: center;
+margin: 0px;
+border: 0px
+}
+p { 
+text-align: center;
+font-family:"Livvic";
+font: 20pt;
+color: #ffffff;
+}
+main {
+max-width: 100%;
+height: 650px;
+background: #ff0000;
+margin: 25px auto;
+border: Solid 2px #ffffff;
+}
+
+h1 {
+text-align: center;
+font-family:"Livvic";
+font: 24pt;
+color: #ffffff;
+}
+nav {
+width: 100%;
+height:60px;
+background-color:red;
+color: white;
+border: Solid 2px #ffffff;
+font-size: 18px;
+}
+/* style to create a fluid image */
+img {
+	max-width: 100%;
+}
+@media (min-width: 320px) {
+  p {
+	  font-size: 10pt;
+  }
+  nav { 
+       font-size: 12pt;
+	   height:40px;
+  }
+        
+}
+@media (min-width: 600px) {
+  p {
+	  font-size: 18pt;
+  }
+  nav {
+	  font-size: 18pt;
+	  height:60px;
+  }
+}
+@media (min-width: 768px) {
+  p {
+	  font-size: 18pt;
+  }
+  nav {
+	  font-size: 20pt;
+	  height: 40px;
+}
+}
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+label {
+	display: block;
+}
+form ul {
+	list-style-type: none;
+}
+.chkbx {
+	display: inline-block;
+}
+label {
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 10em;
+}
+.btn {
+	margin-left: 12em;
+}
+form {
+	background-color: #FFFFFF;
+	padding: 1em;
+}
+form p {
+	color: #fC2003;
+}
+button {
+	float: left;
+	text-align: center;
+    font-family:"Livvic";
+	font-size: 22pt;
+}	
+div.butn {
+	background-image:url("button.png");
+	width:250px;
+	height:100px;
+}
+div.butn:active {
+	background-image:url("button.png");
+	width:250px;
+	height:100px;
